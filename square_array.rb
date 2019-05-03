@@ -7,7 +7,7 @@
 def square_array(array)
   new_array = []
   array.each do |number| 
-  new_array.inject(number * number)
+  new_array.add(number * number)
   return new_array
 end
 end
